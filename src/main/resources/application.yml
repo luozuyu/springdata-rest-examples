@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: prod
+
+#开发环境
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9090
+
+#生产环境
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8080
